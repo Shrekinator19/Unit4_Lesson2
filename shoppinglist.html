@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping List App</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		*, html {
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+			color: #272727;
+		}
+
+		body {
+			background: linear-gradient(90deg, rgba(255,0,0,0.8), rgba(0,0,255,0.8)), url("topography.svg");
+			font-family: "Open Sans", sans-serif;
+		}
+
+		.container {
+			background: gold;
+			width: 600px;
+			margin: auto;
+			margin-top: 30px;
+			box-shadow: 1px 1px 20px rgba(0,0,0,0.2);
+			padding: 30px;
+		}
+
+		li {
+			list-style: none;
+			margin: 0px;
+			padding: 16px;
+			box-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+			background: #FFFFFA;
+		}
+
+		li:hover {
+			background: #EFEFEF;
+			cursor: pointer;
+		}
+
+		ul {
+			list-style: none;
+			list-style-position: inside;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		h1 {
+			margin-bottom: 25px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Shopping List</h1>
+
+		<!-- Don't change any code above this line. -->
+		<!-- Insert your list here. -->
+	<body>
+		<h1>Shopping List:</h1>
+
+<ul>
+	<li>Coca Cola</li>
+	<li>aioli</li>
+	<li>ale</li>
+	<li>almonds</li>
+	<li>andouille sausage</li>
+	<li>angelica</li>
+	<li>apple butter</li>
+	<li>applesauce</li>
+	<li>artificial sweetener</li>
+	<li>arugula</li>
+	<li>asiago cheese</li>
+	<li>bacon</li>
+	<li>baking powder</li>
+	<li>bananas</li>
+	<li>barley sugar</li>
+	<li>beer</li>
+	<li>breadfruit</li>
+	<li>brown rice</li>
+	<li>brussels sprouts</li>
+	<li>cantaloupes</li>
+	<li>capers</li>
+	<li>caviar</li>
+	<li>cayenne pepper</li>
+	<li>chicken</li>
+	<li>chocolate</li>
+	<li>cod</li>
+	<li>crabs</li>
+	<li>cream of tartar</li>
+	<li>curry powder</li>
+	<li>custard</li>
+	<li>doritos</li>
+	<li>fish sauce</li>
+	<li>geese</li>
+	<li>gelatin</li>
+	<li>gouda</li>
+	<li>graham crackers</li>
+	<li>granola</li>
+	<li>green onions</li>
+	<li>grits</li>
+	<li>habanero chilies</li>
+	<li>ketchup</li>
+	<li>lemons</li>
+	<li>lettuce</li>
+	<li>limes</li>
+	<li>margarine</li>
+	<li>milk</li>
+	<li>molasses</li>
+	<li>mussels</li>
+	<li>mustard</li>
+	<li>nectarines</li>
+	<li>oatmeal</li>
+	<li>octopus</li>
+	<li>onion powder</li>
+	<li>orange peels</li>
+	<li>oranges</li>
+	<li>parsley</li>
+	<li>passion fruit</li>
+	<li>peanut butter</li>
+	<li>pears</li>
+	<li>pickles</li>
+	<li>pico de gallo</li>
+	<li>pineapples</li>
+	<li>pink beans</li>
+	<li>plums</li>
+	<li>popcorn</li>
+	<li>poppy seeds</li>
+	<li>potato chips</li>
+	<li>prosciutto</li>
+	<li>provolone</li>
+	<li>prunes</li>
+	<li>pumpkins</li>
+	<li>raisins</li>
+	<li>red cabbage</li>
+	<li>rhubarb</li>
+	<li>ricotta cheese</li>
+	<li>salsa</li>
+	<li>sazon</li>
+	<li>soy sauce</li>
+	<li>soybeans</li>
+	<li>squid</li>
+	<li>succotash</li>
+	<li>sweet peppers</li>
+	<li>tarragon</li>
+	<li>tofu</li>
+	<li>tomato juice</li>
+	<li>tomato paste</li>
+	<li>tortilla chips</li>
+	<li>tortillas</li>
+	<li>turnips</li>
+	<li>vegemite</li>
+	<li>water</li>
+	<li>wine</li>
+	<li>yogurt</li>
+	<li>zinfandel wine</li>
+<ul>
+
+
+	
+		<!-- Don't change any code below this line. -->
+	</div>
+
+	<script type="text/javascript">
+		let list_items = document.querySelectorAll('li');
+		list_items.forEach(item => item.addEventListener('click', function(e) {
+			e.preventDefault();
+			this.remove();
+		}))
+	</script>
+</body>
+</html>
